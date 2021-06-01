@@ -38,7 +38,7 @@ const SortingVisualizer = () => {
       </div>
 
       {/* Footer */}
-      <Social />
+      {/* <Social /> */}
     </div>
   );
 };

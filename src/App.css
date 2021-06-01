@@ -115,6 +115,10 @@ li {
   transform: scale(1.2);
 }
 
+.sorting-speed {
+  direction: rtl;
+}
+
 /* Main app 
 ----------------
 */

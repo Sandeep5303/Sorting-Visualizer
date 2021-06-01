@@ -27,7 +27,7 @@ const SortingVisualizer = () => {
       />
 
       {/* Overlay */}
-      {/* <Overlay /> */}
+      <Overlay />
 
       {/* HEADER */}
       <Navbar />
@@ -38,7 +38,7 @@ const SortingVisualizer = () => {
       </div>
 
       {/* Footer */}
-      {/* <Social /> */}
+      <Social />
     </div>
   );
 };

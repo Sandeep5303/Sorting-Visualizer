@@ -4,6 +4,7 @@ import { customToast } from '../config/helpers';
 import SortingContext from '../context/sorting/sortingContext';
 import BubbleSort from '../algos/BubbleSort';
 import MergeSort from '../algos/MergeSort';
+import PlaySound from '../components/PlaySound';
 
 const Navbar = () => {
   const sortingContext = useContext(SortingContext);
@@ -42,12 +43,16 @@ const Navbar = () => {
   return (
     <div className='navbar py-1'>
       <div className='config'>
-        <button
-          className='btn btn-light'
-          onClick={() => (isSorting ? showToast() : generateArray())}
-        >
-          Generate
-        </button>
+        <div className='flex-row'>
+          <button
+            className='btn btn-light'
+            onClick={() => (isSorting ? showToast() : generateArray())}
+          >
+            Generate
+          </button>
+          {/* background music */}
+          <PlaySound />
+        </div>
         <ul>
           <li>
             <p className='text-center pyy'>Array Size</p>

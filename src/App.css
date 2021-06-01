@@ -77,6 +77,10 @@ li {
   background: #fff;
 }
 
+.btn-music .play {
+  text-align: center;
+}
+
 /* slider */
 .slider {
   -webkit-appearance: none;
@@ -165,6 +169,11 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.navbar .config .flex-row {
+  display: flex;
+  justify-content: center;
 }
 
 .navbar .sorting {

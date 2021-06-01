@@ -22,7 +22,7 @@ const SortingState = props => {
     changeColorToInitial();
     const rArray = [];
     for (let i = 0; i < state.size; i++) {
-      rArray.push(generateRandomNumber(20, 470));
+      rArray.push(generateRandomNumber(20, 460));
     }
     dispatch({
       type: SET_ARRAY,

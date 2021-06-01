@@ -22,7 +22,7 @@ const SortingVisualizer = () => {
     <div className='main'>
       <Toaster
         toastOptions={{
-          duration: 2500,
+          duration: 1500,
         }}
       />
 

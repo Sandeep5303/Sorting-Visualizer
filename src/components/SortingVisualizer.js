@@ -13,7 +13,7 @@ const SortingVisualizer = () => {
   const sortingContext = useContext(SortingContext);
   const { array, size, generateArray } = sortingContext;
 
-  const [bar] = useSound(popSfx, { volume: 0.1 });
+  const [bar] = useSound(popSfx, { volume: 0.25 });
 
   // Generating random array on page reload and onChange array size
   useEffect(() => {
